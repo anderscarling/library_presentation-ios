@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (4.2.0)
+  - LibraryAPI (0.0.1):
+    - Protobuf (~> 3.1.0)
+  - Protobuf (3.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - LibraryAPI (from `git@github.com:anderscarling/library_presentation-protobuf.git`)
+
+EXTERNAL SOURCES:
+  LibraryAPI:
+    :git: git@github.com:anderscarling/library_presentation-protobuf.git
+
+CHECKOUT OPTIONS:
+  LibraryAPI:
+    :commit: c98e6a3c9e95f439f5b457001adc04351c0fc889
+    :git: git@github.com:anderscarling/library_presentation-protobuf.git
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  LibraryAPI: cd42e09f6e3d33f51aa51f3b90a5e256a320ccf0
+  Protobuf: 265e9977d04a83eba9cefb0bed3ad07e41033b4a
+
+PODFILE CHECKSUM: ca1a0d5c4511f9faba13626915881df3e5f8d94d
+
+COCOAPODS: 1.2.0.beta.1
